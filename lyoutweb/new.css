@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.my_header{
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    display: flex;
+    row-gap: 1rem;
+}
+.my_banner{
+    height: 20%;
+    width: 100%;
+    background-color:rgb(197, 195, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.my_banner p:nth-child(1){
+    font-size: 50px;
+}
+.my_banner p:nth-child(2){
+    font-size: 50px;
+
+}
+.my_nav{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(197, 195, 195);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.my_nav>p{
+    font-size: 50px;
+}
+.my_Tex{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(197, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my_Tex>p{
+    font-size: 50px;
+
+}
+.my_main{
+    height: 500px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* gap: 1.5rem; */
+    
+}
+.box{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: calc(100%/3 - 20px);
+}
+
+.my_main .box:nth-child(1){
+    font-size: 50px;
+    background-color: rgb(197, 195, 195);
+}
+.my_main .box:nth-child(2){
+    background-color: rgb(197, 195, 195);
+    font-size: 50px;
+}
+.my_main .box:nth-child(3){
+    background-color: rgb(197, 195, 195);
+    font-size: 50px;
+}
+.my_footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(197, 195, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my_footer>p{
+    font-size: 50px;
+}
